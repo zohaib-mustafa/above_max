@@ -21,7 +21,7 @@ class CompanyFactory extends Factory
          return [
             'name' => $this->faker->company,
             'email' => $this->faker->unique()->safeEmail,
-            'logo' => 'VGGrM4jF0y7EBMQRTkNM5i7S6qzz8H33STpQL8ty.jpg',
+            'logo' => '',
             'website' => $this->faker->url,
         ];
     }

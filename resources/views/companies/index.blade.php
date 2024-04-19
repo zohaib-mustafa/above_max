@@ -28,7 +28,8 @@
                                     @if ($company->logo)
                                         <img src="{{ asset('storage/logos/' . $company->logo) }}" alt="{{ $company->name }} Logo" style="max-width: 100px;">
                                     @else
-                                        No Logo
+                                   
+                                        <img src="https://medvirturials.com/img/old_logo.png" alt="{{ $company->name }} Logo" style="max-width: 100px;">
                                     @endif
                                 </td>
                                 <td>{{ $company->website }}</td>
